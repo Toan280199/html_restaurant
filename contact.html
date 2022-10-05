@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
-<body style="background-color: rgb(150, 200, 255);">
+<body style="background-color: rgb(150, 200, 255); max-width: 100%;">
     
     <!-- The header -->
     <header style="padding-top: 2px; background-color: white;">
         <span>
-            <img src="/img/logo_restaurant.jpg" width="111em" alt="logo">
+            <img src="img/logo_restaurant.jpg" width="111em" alt="logo">
         </span>
         <span class="search_area" style="font-family: Times New Roman;">
             <form action="" method="get">
@@ -41,44 +41,42 @@
             </ul>
         </nav>
     </header>
-    <!-- content  -->
-    <img src="img/about_us.jfif" alt="About us" class = "width_full">
-    <table class="restaurant_content">
-        <tr>
-            <td colspan="3" class="content_header">What should your restaurant post on social media?</td>
-        </tr>
-        <tr>
-            <td>
-                Your followers aren’t just interested in your food, they also want to know how the restaurant became popular, what the origin is, and where you aspire to go in the future. <br>
-                If you tell the story of your restaurant through photos and videos, your audience will not only be engaged and interested, but they’ll also want to see the story in real life. That means more reservations coming your way. <br>
-            </td>
-            <td>
-                Diners love to see how the food gets made. Don't believe us? Just think about all the popular TV shows about chefs, cooking and restaurants. <br>
-                You can easily attract new guests by sharing how the food gets made in your kitchen. You’re already doing the work, all you have to do now is film and share. <br>
-            </td>
-            <td>
-                Sure, your food is delicious and beautiful, but why else should customers come to your restaurant? Sharing photos of your staff working together behind the scenes gives a personal insight into the restaurant. And it shows that you care about your team.<br>
-            </td>
-        </tr>
-        <tr>
-            <td><b>How to do it: </b>Think in short clips – not a full-length documentary.</td>
-            <td><b>How to do it: </b>Choose one of your signature dishes and film your chef making it. It’s that simple.            </td>
-            <td><b>How to do it: </b>: Dedicate one post every week (or month) to a team member. Post a picture of them working in the restaurant and include their favourite guest experience or their favourite dish in the caption. <br>            </td>
-        </tr>
-    </table>
-    <!-- Banner -->
-    <table class="restaurant_banner">
-        <tr>
-            <td><img src="/img/food1.jpeg" alt="Banner_1"></td>
-            <td><img src="/img/food2.jpg" alt="Banner_2"></td>
-            <td><img src="/img/food3.jpg" alt="Banner_3"></td>
-        </tr>
-        <tr>
-            <td><img src="/img/food5.jpg" alt="Banner_4"></td>
-            <td><img src="/img/food7.jpg" alt="Banner_5"></td>
-            <td><img src="/img/food8.jpg" alt="Banner_6"></td>
-        </tr>        
-    </table>
+    <!-- banner  -->
+    <div class="contact_banner">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6654110855!2d106.65956964958075!3d10.760249062398701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fc0a334946f%3A0xd7ca316ba53f530b!2zNDk3IEhvw6AgSOG6o28sIFBoxrDhu51uZyA0LCBRdeG6rW4gMTAsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1664941756613!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>    <!--google map -->
+
+    <!-- contact form -->
+    <div class="contact_info"><b>Give information</b>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="mem_name" id="mem_name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="mail" id="mail"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td><Textarea name="mess" cols="70" rows="10"></Textarea></td>
+                </tr>
+                <tr>
+                    <td>Date of birth</td>
+                    <td><input type="date" name="r_date" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="c_send" id="" value="Send information"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
     <!-- footer -->
     <footer class="restaurant_footer">
         <table>
